@@ -1,0 +1,22 @@
+.todo {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.posicion_boton {
+    align-content: center;
+}
+.boton {
+    text-align: center;
+    color: black;
+    border-radius: 0%;
+}
+.titulo {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.contenedor{
+    position:relative;
+    text-align: center;
+}
