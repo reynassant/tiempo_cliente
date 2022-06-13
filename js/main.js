@@ -2,7 +2,7 @@ var map = L.map('map')
 var popup = L.popup();
 
 
-map.setView([41.66, -4.72], 15);
+map.setView([40.30, 3.40], 15);
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
@@ -11,11 +11,11 @@ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.control.scale().addTo(map);
 
-L.marker([41.66, -4.71], {
+L.marker([40.30, 3.40], {
     draggable: true
 }).addTo(map);
 
-
+ 
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
