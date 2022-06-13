@@ -10,14 +10,18 @@
 
 .divs_estructura
 {
-    background-color: aqua;
+    background-color: black;
     width: 50%;
     height: 50%;
+    margin: auto;
 }
 
 .paises_fijos
 {
-
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
 
 #organizador_paises
