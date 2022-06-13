@@ -1,4 +1,5 @@
-.todo {
+#todo {
+    display: flex;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -12,6 +13,7 @@
     border-radius: 0%;
 }
 .titulo {
+    margin: auto;
     position: relative;
     display: inline-block;
     text-align: center;
