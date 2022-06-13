@@ -1,16 +1,18 @@
 #map 
     { 
-    width: 100%;
+    width: 50%;
     height: 580px;
     box-shadow: 5px 5px 5px #888;
+    justify-content: center;
+    margin: auto;
 }
 
 
 .divs_estructura
 {
     background-color: aqua;
-    width: 15px;
-    height: 15px;
+    width: 50%;
+    height: 50%;
 }
 
 .paises_fijos
