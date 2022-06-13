@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(8, 74, 118);
+}
+
+.Barra-inicio{
+  background-color: rgb(235, 243, 243);
+  height: 400px;
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  margin: 100px;
+  font-size: 100px;
+    
+}
+
+.capitales{ 
+    background-color: rgb(235, 243, 243);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ejemplo1{
+    background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    flex-grow: 0.03;
+    color:rgb(235, 243, 243);
+    font-size: 40px;
+    }
+
+.ejemplo2{
+    background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    flex-grow: 0.03;
+    color:rgb(235, 243, 243);
+    font-size: 40px;
+   
+
+}
+
+.ejemplo3{
+    background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    flex-grow: 0.03;
+    color:rgb(235, 243, 243);
+    font-size: 40px;
+
+}
+
+.ejemplo4{
+    background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    flex-grow: 0.03;
+    color:rgb(235, 243, 243);
+    font-size: 40px;
+    
+   
+}
+.mapa{
+    background-color: rgb(235, 243, 243);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin: 350px;
+    border: solid 10px;
+
+}
+
+.t-mapa{
+    background-color: rgb(235, 243, 243);
+    height: 400px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin: 100px;
+    font-size: 100px;
+
+      
+  }
