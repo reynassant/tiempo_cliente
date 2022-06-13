@@ -1,7 +1,7 @@
 #map 
     { 
     width: 50%;
-    height: 580px;
+    height: 380px;
     box-shadow: 5px 5px 5px #888;
     justify-content: center;
     margin: auto;
@@ -14,6 +14,25 @@
     width: 50%;
     height: 50%;
     margin: auto;
+}
+
+.barra_inferior
+{
+
+    height: 50px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    flex-direction: row;
+
+    display: flex;
+}
+
+.div_inferior 
+{
+background-color: goldenrod;
+width: 100px;
+height: 100px;
+margin: auto;
 }
 
 .paises_fijos
