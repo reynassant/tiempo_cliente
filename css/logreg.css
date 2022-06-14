@@ -1,7 +1,15 @@
+body
+{
+    align-items: center;
+}
+
 .todo {
-    position: relative;
+    position: center;
     display: inline-block;
     text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }
 .posicion_boton {
     align-content: center;

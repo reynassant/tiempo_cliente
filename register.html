@@ -7,17 +7,17 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
-        <div class="titulo"></div>
-                <h1>REGISTER</h1>
-            </div>
-            <div><textarea id="name" class="rellena">nombre</textarea>
-            </div>
-            <div><textarea id="pass" class="rellena">contraseña</textarea>
-            </div>
-            <div><textarea id="pass" class="rellena">repite contraseña</textarea>
-            </div>
-            <div><textarea id="e-mail" class="rellena">e-mail</textarea>
-            </div>
-            <p><button id="register" class="boton" href="inscribe_nuevo_datos_en_BASE_DATOS">REGISTER</button></p>
+        <div class="todo">
+            <h1>REGISTER</h1>
+            <form action="/register_action" method="post">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Name"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="password" id="pass" name="pass" placeholder="Pass"><br>
+                <label for="lname">Ubication</label><br>
+                <input type="text" id="ubication" name="ubication" placeholder="ubication"><br><br>
+                <input type="submit" id="boton" placeholder="Register" href="login.html">
+            </form>         
+        </div>
     </body>
 </html>
