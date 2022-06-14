@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"/>
-    </head>
-    <body>
-        <div class="divs_estructura">
-        </div>
-        <div class="divs_estructura" id="organizador_paises">
-            <div class="paises_fijos" id="madrid"></div>
-            <div class="paises_fijos" id="paris"></div>
-            <div class="paises_fijos" id="moscow"></div>
-            <div class="paises_fijos" id="berlin"></div>
-        </div>
-        <div class="divs_estructura">
-            <input type="number"><input type="number"><button>OK</button>
-        </div>
-        <div class="divs_estructura" id="map"></div>
-        <div class="divs_estructura">
-        </div>
-    </body>
-	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+</head>
+
+<body>
+    <div class="visores" id="fijo">
+    </div>
+    <div id="organizador_paises">
+        <div class="paises_fijos" id="madrid"></div>
+        <div class="paises_fijos" id="paris"></div>
+        <div class="paises_fijos" id="moscow"></div>
+        <div class="paises_fijos" id="berlin"></div>
+    </div>
+    <div id="div_coordenadas">
+        <input type="number"><input type="number"><button>OK</button>
+    </div>
+    <div id="map"></div>
+    <div class="visores" id="resultado"></div>
+</body>
+<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
 </html>

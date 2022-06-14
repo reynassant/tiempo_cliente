@@ -1,42 +1,63 @@
-body
-{
+body {
     background-color: rgb(8, 74, 118);
 }
 
 
-.divs_estructura
+
+.visores {
+    background-color: coral;
+    height: 250px;
+    width: 75%;
+    box-shadow: 5px 5px 5px #888;
+    margin: auto;
+}
+
+.paises_fijos {
+    background-color: black;
+    border-radius: 5%;
+    margin: 15px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    flex-grow: 0.03;
+    color: rgb(235, 243, 243);
+    font-size: 40px;
+    box-shadow: 5px 5px 5px #888;
+}
+#fijo
 {
-    background-color:darkgoldenrod;
+
+}
+
+#resultado
+{
+    
+}
+
+#div_coordenadas {
+    background-color: darkgoldenrod;
     width: 75%;
     height: 50%;
     margin: auto;
+    box-shadow: 5px 5px 5px #888;
+
 }
 
-.paises_fijos
-{
-    background-color: black;
-    padding: 2px;
-    width: 300px;
-    flex-grow: 0.03;
-    color:rgb(235, 243, 243);
-    font-size: 40px;
-}
-
-#organizador_paises
-{
+#organizador_paises {
     border-color: white;
     border: 10px;
-    background-color:darkgoldenrod;
+    background-color: darkgoldenrod;
     padding: auto;
     margin: auto;
-    height: 200px;
+    height: 240px;
     width: 75%;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 5px 5px 5px #888;
+
 }
 
-#map 
-    { 
+#map {
     width: 75%;
     height: 580px;
     box-shadow: 5px 5px 5px #888;
