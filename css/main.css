@@ -1,3 +1,15 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: 'open sans-serif';
+}
 #map 
     { 
     width: 50%;
@@ -8,9 +20,9 @@
 }
 
 
-.divs_estructura
+.barra_superior
 {
-    background-color: black;
+    background-color: inherit;
     width: 50%;
     height: 50%;
     margin: auto;
@@ -19,28 +31,26 @@
 .barra_inferior
 {
 
-    height: 50px;
-    background-color: antiquewhite;
-    justify-content: space-between;
-    flex-direction: row;
-
+    background-color: unset;
+    height: 100px;
     display: flex;
+    justify-content: space-around;
 }
 
-.div_inferior 
+#madrid 
 {
-background-color: goldenrod;
-width: 100px;
-height: 100px;
-margin: auto;
+    height: 90 px;
+    width: 90 px;
+
 }
+
 
 .paises_fijos
 {
-    background-color: blue;
-    width: 50%;
-    height: 50%;
-    margin: auto;
+background-color: aquamarine;
+width: 100px;
+height: 100px;
+margin: auto; 
 }
 
 #organizador_paises
