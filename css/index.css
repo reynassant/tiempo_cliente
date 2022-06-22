@@ -1,0 +1,50 @@
+body 
+{
+    background-color: rgb(8, 74, 118);
+}
+
+
+
+.todo 
+{
+    background-color: coral;
+    height: 500px;
+    width: 75%;
+    box-shadow: 5px 5px 5px #888;
+    margin: auto;
+}
+
+.ejemplo 
+{
+    background-color: cadetblue;
+    height: 150%;
+    width: 75%;
+    box-shadow: 5px 5px 5px #888;
+    margin: auto;
+}
+
+.add
+{
+    background-color:darkgreen;
+    height: 75%;
+    width: 75%;
+    box-shadow: 5px 5px 5px #888;
+    margin: auto;
+}
+
+
+#add
+{   
+    margin-left: 80%;
+}
+
+
+
+#map 
+{
+    width: 75%;
+    height: 580px;
+    box-shadow: 5px 5px 5px #888;
+    justify-content: center;
+    margin: auto;
+}
